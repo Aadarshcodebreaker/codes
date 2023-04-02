@@ -1,0 +1,107 @@
+html{
+    overflow-x: hidden;
+}
+
+.parallax-img{
+    height: 900px;
+    width: 1530px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: -1;
+
+}
+.txt-1{
+    font-family: 'Ubuntu', sans-serif;
+    position: absolute;
+    top: 35%;
+    left: 20%;
+    text-align: center;
+    font: 1500;
+    font-weight: 800;
+    font-size: 150px;
+    text-transform: capitalize;
+    color: white;
+}
+.content{
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    padding: 88px 120px;
+    background-color: black;
+}
+.hh{
+    color: yellow;
+}
+.p1{
+   color:white;
+} 
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(18, 17, 17);
+    color: white;
+    text-align: center;
+  }
+  .custom-shape-divider-top-1680405268 {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    background-color: yellow;
+}
+@media (max-width:1000px) {
+    .parallax-img{
+        font-family: 'Ubuntu', sans-serif;
+        height: 900px;
+        width: 530px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        object-fit: cover;
+        z-index: -1;
+    
+    }
+    .txt-1{
+        font-family: 'Ubuntu', sans-serif;
+        position: absolute;
+        top: 35%;
+        left: 20%;
+        text-align: center;
+        font: 1500;
+        font-weight: 800;
+        font-size: 50px;
+        text-transform: capitalize;
+        color: white;
+    }
+    .content{
+        position: absolute;
+        top: 90%;
+        width: 100%;
+        padding: 88px 120px;
+        background-color: black;
+    }
+    .hh{
+        text-align: center;
+    }
+    .p1{
+        color:white;
+        text-align: center;
+     } 
+     .custom-shape-divider-top-1680405268 {
+        position: absolute;
+        top: 92%;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        line-height: 0;
+        background-color: yellow;
+    }
+
+
+}
